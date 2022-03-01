@@ -9,9 +9,9 @@ It's the file of the most popular news-orienteered telegram channels in format *
 ### TelegramGrabber.ipynb
 It's the code, that takes a CSV file of channels as input and gives a stack of JSON files with posts of these channels as output.
 ### RU_JSON/UA_JSON
-It's a folder with JSON files with all posts of these channels since 2022-02-21
+It's a folder with JSON files with all posts of these channels since 2022-02-21.
 ### RuChange/UaChange
-It's the code, that delete all post, that were published before 2022-02-21
+It's the code, that delete all post, that were published before 2022-02-21.
 ### config.ini
 There is no config file posted due to confidential information.
 ## Русская версия
@@ -28,4 +28,4 @@ There is no config file posted due to confidential information.
 ### RuChange/UaChange
 Код, удаляющий все посты, которые были опубликованы раньше 2022-02-21.
 ### config.ini
-Из соображений конфиденциальности данный файл не будет опубликован
+Из соображений конфиденциальности данный файл не будет опубликован.
