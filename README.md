@@ -5,7 +5,7 @@ About 03:00 UTC on 24. February Russian President Vladimir Putin announced in a 
 ### Description
 My focus was the analysis of publications about the war in Ukrainian and Russian Telegram channels. Using [Telegram Analytics](https://tgstat.com) I got the 100 biggest news-orienteered telegram channels from Russia and Ukraine in the Russian language. However some of them are private, that is why we have only 84 Russian channels and 89 Ukrainian. Then I built up Telegram Grabber based on [this article](https://proglib.io/p/pishem-prostoy-grabber-dlya-telegram-chatov-na-python-2019-11-06). I wanted to get posts, that were published after 2022-02-21, so I took the last 2000 posts and got rid of all that was posted earlier.
 ### TelPool.csv
-This is the file of the most popular news-orienteered telegram channels in format **russian_channels; ukrainian_channels**.
+This file consists of the most popular news-orienteered telegram channels in format **russian_channels; ukrainian_channels**.
 ### TelegramGrabber.ipynb
 This is the code, that takes a CSV file of channels as input and gives a stack of JSON files with posts of these channels as output.
 ### RU_JSON/UA_JSON
