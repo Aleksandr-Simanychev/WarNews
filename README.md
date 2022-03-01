@@ -3,15 +3,15 @@
 ### Backstory
 About 03:00 UTC on 24. February Russian President Vladimir Putin announced in a prerecorded television broadcast that he had ordered "a special military operation" in eastern Ukraine; minutes later, missile strikes occurred at dozens of cities across the country, including Ukraine's capital Kyiv. However, the first steps of it were made on 21. February, when Vladimir Putin announced that Russia recognizes the independence of two pro-Russian breakaway regions in eastern Ukraine (DPR and LPR).  
 ### Description
-My focus was the analysis of publications about the war on Ukrainian and Russian Telegram channels. Using [Telegram Analytics](https://tgstat.com) I got the 100 biggest news-orienteered telegram channels from Russia and Ukraine in the Russian language. However some of them are private, that is why we have only 84 Russian channels and 89 Ukrainian. Then I built up Telegram Grabber based on [this article](https://proglib.io/p/pishem-prostoy-grabber-dlya-telegram-chatov-na-python-2019-11-06). I wanted to get posts, that were published after 2022-02-21, so I took the last 2000 posts and got rid of all that was posted earlier.
+My focus was the analysis of publications about the war in Ukrainian and Russian Telegram channels. Using [Telegram Analytics](https://tgstat.com) I got the 100 biggest news-orienteered telegram channels from Russia and Ukraine in the Russian language. However some of them are private, that is why we have only 84 Russian channels and 89 Ukrainian. Then I built up Telegram Grabber based on [this article](https://proglib.io/p/pishem-prostoy-grabber-dlya-telegram-chatov-na-python-2019-11-06). I wanted to get posts, that were published after 2022-02-21, so I took the last 2000 posts and got rid of all that was posted earlier.
 ### TelPool.csv
-It's the file of the most popular news-orienteered telegram channels in format **russian_channels; ukrainian_channels**.
+This is the file of the most popular news-orienteered telegram channels in format **russian_channels; ukrainian_channels**.
 ### TelegramGrabber.ipynb
-It's the code, that takes a CSV file of channels as input and gives a stack of JSON files with posts of these channels as output.
+This is the code, that takes a CSV file of channels as input and gives a stack of JSON files with posts of these channels as output.
 ### RU_JSON/UA_JSON
-It's a folder with JSON files with all posts of these channels since 2022-02-21.
+This is a folder with JSON files with all posts of these channels since 2022-02-21.
 ### RuChange/UaChange
-It's the code, that delete all post, that were published before 2022-02-21.
+This is the code, that delete all post, that were published before 2022-02-21.
 ### config.ini
 There is no config file posted due to confidential information.
 ## Русская версия
